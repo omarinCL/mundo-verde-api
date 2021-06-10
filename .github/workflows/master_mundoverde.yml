@@ -29,7 +29,6 @@ jobs:
         cp package-lock.json dist/
         cp package.json dist/
         cd dist
-        npm i --only-production
 
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v2
