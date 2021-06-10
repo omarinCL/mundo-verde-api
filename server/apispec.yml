@@ -3,10 +3,12 @@ info:
   title: mundo-verde-app
   version: '1.0'
 servers:
-  - url: http://localhost:8080/api/v1
+  - url: /api/v1
 paths:
   /categories:
     get:
+      tags:
+        - Store API
       responses:
         '200':
           description: OK
