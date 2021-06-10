@@ -17,6 +17,17 @@ import {
 import errorHandler from '../middleware/errorHandler';
 import connect from './dbCLient';
 
+const whitelist = ['http://localhost:8080', 'http://localhost:8081', 'https://mundo-verde-71ab3.web.app'];
+const corsOptions = {
+  origin: (origin: string, callback: (arg0: Error, arg1?: boolean) => void) => {
+    if (whitelist.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+};
+
 export default class ExpressServer {
   private routes: (app: Application) => void;
 
@@ -36,7 +47,7 @@ export default class ExpressServer {
     this.app.use(actuator());
     this.app.use('/', express.static(`${root}/public/swaggerUI`));
     this.app.use(swaggerApiSpec, express.static(apiSpec));
-    this.app.use(cors({ origin: 'https://mundo-verde-71ab3.web.app' }));
+    this.app.use(cors(corsOptions));
     this.app.use(validator.middleware({
       apiSpec,
       validateRequests: false,
