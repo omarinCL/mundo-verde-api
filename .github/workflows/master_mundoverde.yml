@@ -25,7 +25,6 @@ jobs:
       run: |
         npm install
         npm run build --if-present
-        cp package-lock.json dist/
         cp package.json dist/
         cd dist
         npm i --only-production
