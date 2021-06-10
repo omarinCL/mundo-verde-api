@@ -28,7 +28,7 @@ jobs:
         cp package.json dist/
         cd dist
         npm i --only-production
-        tar -cvf app.tar .
+        tar -cf app.tar .
 
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v2
@@ -50,7 +50,10 @@ jobs:
         name: node-app
 
     - name: Extract files
-      run: tar -xvf app.tar
+      run: tar -xf app.tar
+
+    - name: Drop tar file
+      run: rm -f app.tar
 
     - name: 'Deploy to Azure Web App'
       id: deploy-to-webapp
