@@ -53,11 +53,6 @@ jobs:
     - name: Extract files
       run: tar -xvf app.tar
 
-    - name: Display structure of downloaded files
-      run: |
-        rm -f app.tar
-        ls -R
-
     - name: 'Deploy to Azure Web App'
       id: deploy-to-webapp
       uses: azure/webapps-deploy@v2
