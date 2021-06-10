@@ -26,6 +26,10 @@ jobs:
         npm install
         npm run build --if-present
         npm run test --if-present
+        cp package-lock.json dist/
+        cp package.json dist/
+        cd dist
+        npm i --only-production
 
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v2
