@@ -25,17 +25,17 @@ jobs:
       run: |
         npm install
         npm run build --if-present
-        npm run test --if-present
         cp package-lock.json dist/
         cp package.json dist/
         cd dist
         npm i --only-production
+        tar -cvf app.tar .
 
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v2
       with:
         name: node-app
-        path: dist/
+        path: dist/app.tar
 
   deploy:
     runs-on: ubuntu-latest
@@ -49,6 +49,9 @@ jobs:
       uses: actions/download-artifact@v2
       with:
         name: node-app
+
+    - name: Display structure of downloaded files
+      run: ls -R
 
     - name: 'Deploy to Azure Web App'
       id: deploy-to-webapp
