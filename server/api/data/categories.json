@@ -10,20 +10,7 @@
     ],
     "exposure": 0,
     "irrigation": 2,
-    "notes": [],
-    "products": [{
-        "price": 5000,
-        "image": "https://verdecora.es/blog/wp-content/uploads/2016/01/plantas-suculentas-cuidados-luz.jpg"
-    }, {
-        "price": 5000,
-        "image": "https://www.handfie.com/wp-content/uploads/2020/06/suculentas-sempervivum.jpg"
-    }, {
-        "price": 5000,
-        "image": "https://http2.mlstatic.com/D_NQ_NP_2X_859013-MLC44784871896_022021-F.webp"
-    }, {
-        "price": 5000,
-        "image": "https://2.bp.blogspot.com/-m9DAXNUzbYo/XN7ATO5svqI/AAAAAAABbY8/9a25t_TJNz8jtzve1A1ixO21kbxhDMt4ACLcBGAs/s1600/s.jpg"
-    }]
+    "notes": []
 }, {
     "id": "C2",
     "name": "Acuáticas",
@@ -38,23 +25,7 @@
         { "title": "Nutrientes", "description": "Existen diferentes vías para nutrir la planta, usando abono líquido en la pilastra de agua o por medio de pastillas fertilizantes/sustrato. Siempre considerando las características de la planta en particular." },
         { "title": "CO2", "description": "Puedes suministrarlo directamente o por medio de los peces." },
         { "title": "Condiciones químicas", "description": "Las plantas acuáticas tendrán un desarrollo óptimo en condiciones químicas apropiadas dentro del agua" }
-    ],
-    "products": [{
-        "price": 10000,
-        "image": "https://okdiario.com/img/2019/10/25/flor-de-loto_-cual-es-su-significado-y-que-significa-655x368.jpg"
-    }, {
-        "price": 10000,
-        "image": "https://www.guiaverde.com/files/plant/ACU_020.jpg"
-    }, {
-        "price": 10000,
-        "image": "https://i0.wp.com/www.fanmascotas.com/wp-content/uploads/2018/06/lenteja-de-agua.png"
-    }, {
-        "price": 10000,
-        "image": "https://www.multiplant.cl/wp-content/uploads/2016/05/papiro-egipcio.jpg"
-    }, {
-        "price": 10000,
-        "image": "https://media.floresfrescasonline.com/c/product/callas-lirio-de-agua-520x520.jpg"
-    }]
+    ]
 }, {
     "id": "C3",
     "name": "Árboles",
@@ -66,23 +37,7 @@
     ],
     "exposure": 5,
     "irrigation": 2,
-    "notes": [],
-    "products": [{
-        "price": 20000,
-        "image": "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2020/05/arbol-de-durazno-natazhekova.jpg"
-    }, {
-        "price": 20000,
-        "image": "https://www.guiadejardineria.com/wp-content/uploads/2017/07/como-cultivar-cerezas-01-e1499870403470.jpg"
-    }, {
-        "price": 20000,
-        "image": "https://www.guiadejardineria.com/wp-content/uploads/2013/12/como-cultivar-un-manzano-desde-una-semilla-1.jpg"
-    }, {
-        "price": 20000,
-        "image": "https://www.jardineriaon.com/wp-content/uploads/2016/03/imagen-de-una-rama-de-un-naranjo-plantado-en-una-maceta-1024x683.jpg.webp"
-    }, {
-        "price": 20000,
-        "image": "http://4everstatic.com/imagenes/850xX/naturaleza/plantas/frutas/peras,-arbol,-hojas-verdes-221839.jpg"
-    }]
+    "notes": []
 }, {
     "id": "C4",
     "name": "Rosas",
@@ -94,23 +49,7 @@
     ],
     "exposure": 5,
     "irrigation": 3,
-    "notes": [],
-    "products": [{
-        "price": 5000,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/813TRO05VsL._AC_SL1500_.jpg"
-    }, {
-        "price": 5000,
-        "image": "https://media.istockphoto.com/photos/rose-plant-full-of-detailed-red-roses-composition-picture-id1025816210?s=612x612"
-    }, {
-        "price": 5000,
-        "image": "https://cdn.pixabay.com/photo/2016/08/03/06/29/yellow-rose-1565996_960_720.jpg"
-    }, {
-        "price": 5000,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/%22Meillandine%22_Rose_in_clay_pot.jpg/800px-%22Meillandine%22_Rose_in_clay_pot.jpg"
-    }, {
-        "price": 5000,
-        "image": "https://p1.pxfuel.com/preview/53/7/602/orange-roses-blooming-blossom-flowers-backlight-evening.jpg"
-    }]
+    "notes": []
 },{
     "id": "C5",
     "name": "Bulbos",
@@ -124,23 +63,7 @@
     ],
     "exposure": 2,
     "irrigation": 1,
-    "notes": [],
-    "products": [{
-        "price": 10000,
-        "image": "https://cdnx.jumpseller.com/flores-en-mi-jardin/image/8682449/resize/470/470?1618767874"
-    }, {
-        "price": 10000,
-        "image": "https://blog.gardencenterejea.com/wp-content/uploads/2016/08/Dalia-rosa.jpg"
-    }, {
-        "price": 10000,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/617TwMINapL._AC_.jpg"
-    }, {
-        "price": 10000,
-        "image": "https://i.pinimg.com/564x/ef/46/65/ef46652cce4d01404775b0e6f5529b0e.jpg"
-    }, {
-        "price": 10000,
-        "image": "https://okdiario.com/img/2017/06/25/cultivar-tulipanes-en-macetas-655x368.jpg"
-    }]
+    "notes": []
 }, {
     "id": "C6",
     "name": "Medicinales",
@@ -155,18 +78,5 @@
     "notes": [{
         "title": "Advertencia",
         "description": "Las hierbas no son reguladas ni probadas como los medicamentos."
-    }],
-    "products": [{
-        "price": 1500,
-        "image": "https://t2.ev.ltmcdn.com/es/posts/6/7/2/caracteristicas_de_la_planta_menta_1276_0_600.jpg"
-    }, {
-        "price": 1500,
-        "image": "http://www.consultaplantas.com/images/phocagallery/melissa_officinalis/thumbs/phoca_thumb_l_melissa_officinalis_1.jpg"
-    }, {
-        "price": 1500,
-        "image": "https://www.aboutespanol.com/thmb/PShDD7WxjbvB6FFu-ZZeDkYn60w=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/pennyroyal-5b33c36446e0fb0037869b84.jpg"
-    }, {
-        "price": 1500,
-        "image": "https://lanota2009.files.wordpress.com/2016/12/paico-chenopodium-ambrosioide.jpg?w=800&h=400&crop=1"
     }]
 }]

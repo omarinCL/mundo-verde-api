@@ -1,6 +1,6 @@
 openapi: '3.0.2'
 info:
-  title: mundo-verde-app
+  title: Mundo verde API
   version: '1.0'
 servers:
   - url: /api/v1
@@ -12,3 +12,59 @@ paths:
       responses:
         '200':
           description: OK
+        '404':
+          description: Not found
+  /categories/{categoryId}:
+    get:
+      tags:
+        - Store API
+      parameters:
+        - in: path
+          name: categoryId
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+        '404':
+          description: Not found
+  /categories/{categoryId}/products:
+    get:
+      tags:
+        - Store API
+      parameters:
+        - in: path
+          name: categoryId
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+        '404':
+          description: Not found
+  /products:
+    get:
+      tags:
+        - Store API
+      responses:
+        '200':
+          description: OK
+        '404':
+          description: Not found
+  /products/{productId}:
+    get:
+      tags:
+        - Store API
+      parameters:
+        - in: path
+          name: productId
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+        '404':
+          description: Not found
