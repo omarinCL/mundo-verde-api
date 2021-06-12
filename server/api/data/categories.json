@@ -10,7 +10,8 @@
     ],
     "exposure": 0,
     "irrigation": 2,
-    "notes": []
+    "notes": [],
+    "image": "https://blog.xochitla.org.mx/wp-content/uploads/2020/01/th-suculentas-1180x520.jpg"
 }, {
     "id": "C2",
     "name": "Acuáticas",
@@ -25,7 +26,8 @@
         { "title": "Nutrientes", "description": "Existen diferentes vías para nutrir la planta, usando abono líquido en la pilastra de agua o por medio de pastillas fertilizantes/sustrato. Siempre considerando las características de la planta en particular." },
         { "title": "CO2", "description": "Puedes suministrarlo directamente o por medio de los peces." },
         { "title": "Condiciones químicas", "description": "Las plantas acuáticas tendrán un desarrollo óptimo en condiciones químicas apropiadas dentro del agua" }
-    ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Nenufar-rosa.JPG"
 }, {
     "id": "C3",
     "name": "Árboles",
@@ -37,7 +39,8 @@
     ],
     "exposure": 5,
     "irrigation": 2,
-    "notes": []
+    "notes": [],
+    "image": "https://infoagro.com.ar/wp-content/uploads/2021/05/arboles-frutales-enanos-w.png"
 }, {
     "id": "C4",
     "name": "Rosas",
@@ -49,7 +52,8 @@
     ],
     "exposure": 5,
     "irrigation": 3,
-    "notes": []
+    "notes": [],
+    "image": "https://ca-times.brightspotcdn.com/dims4/default/31a82e5/2147483647/strip/true/crop/2048x1365+0+0/resize/840x560!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F1c%2F67%2Fdb77dbad81337f6385c78ac28869%2Fsdhoy-he-aqui-una-guia-mes-por-mes-para-manten-001"
 },{
     "id": "C5",
     "name": "Bulbos",
@@ -63,7 +67,8 @@
     ],
     "exposure": 2,
     "irrigation": 1,
-    "notes": []
+    "notes": [],
+    "image": "https://psmgrup.cat/wp-content/uploads/2020/11/como-plantar-tulipanes.jpg"
 }, {
     "id": "C6",
     "name": "Medicinales",
@@ -78,5 +83,6 @@
     "notes": [{
         "title": "Advertencia",
         "description": "Las hierbas no son reguladas ni probadas como los medicamentos."
-    }]
+    }],
+    "image": "https://www.salud.mapfre.es/media/2016/07/manzanilla-balsamo-digestivo-3-1280x720.jpg"
 }]
